@@ -1,10 +1,10 @@
-package exercicioEBAC;
+package mod5_exercise;
 
-public class firstClass {
+public class hello_name {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Hello World!");
+
 	}
 
 }

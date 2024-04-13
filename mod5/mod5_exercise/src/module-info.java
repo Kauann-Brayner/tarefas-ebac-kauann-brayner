@@ -4,5 +4,5 @@
 /**
  * 
  */
-module exercicioEBAC {
+module mod5_exercise {
 }
