@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto das Construções</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+            <div id="headerDiv">
+                <div class="container containerFlex" id="containerHeader">
+                    <div class="imagensHeader">
+                        <img src="images/menuBar.png" alt="" id="menuBar">
+                        <img src="images/logo.png" alt="" id="logo">
+                    </div>
+                    <input type="text" id="buscador1" placeholder="Busque seu produto">
+                    <ul class="containerFlex">
+                        <li><a href="login.html">Sobre nós</a></li>
+                        <li><a href="produtos">Produtos</a></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <input type="text" id="buscador2" placeholder="Busque seu produto">
+                </div>
+                
+            </div>
+            <nav>
+                <div class="container">
+                    <ul class="menu">
+                        <li>
+                            Departamentos
+                            <ul class="submenu submenu2">
+                                <li><a href="#">Madeira</a></li>
+                                <li><a href="#">Concreto</a></li>
+                                <li><a href="#">Banheiro</a></li>
+                                <li><a href="#">Iluminação</a></li>
+                                <li><a href="#">Tintas</a></li>
+                            </ul>
+                        </li>
+                        <li class="departamento">
+                            Madeira
+                            <ul class="submenu">
+                                <li><a href="#">Ripas</a></li>
+                                <li><a href="#">Móveis</a></li>
+                                <li><a href="#">Decorações</a></li>
+                            </ul>
+                        </li>
+                        <li class="departamento">
+                            Concreto
+                            <ul class="submenu">
+                                <li><a href="#">Blocos de Concreto</a></li>
+                                <li><a href="#">Móveis</a></li>
+                                <li><a href="#">Decorações</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <section id="sobreNos">
+        <div class="container containerFlex">
+            <img src="images/fotoLoja.png" alt="">
+            <div id="sobre">
+                <h2>Sobre Nós</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus id quas quisquam provident illo voluptatum reprehenderit, cumque atque, quis voluptatibus quo totam possimus autem quibusdam iste, praesentium voluptates modi maxime!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis corrupti id consequatur dolor recusandae laborum ex perspiciatis, nihil assumenda eligendi nesciunt nulla maiores? Voluptatem pariatur quia odit ratione, omnis repudiandae?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Produtos</h2>
+            <div id="listaProdutos">
+                <div class="produto">
+                    <img src="https://www.tocaobra.com.br/media/catalog/product/P/i/Pia_de_Fibra_com_Cuba_Preta_1_20_x_0_50_m_-_3376_-_Fibromax_-_Unit_rio-0.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=472&width=504&canvas=504:472" alt="">
+                    <h3>Tanque de Fibra</h3>
+                    <div class="preco">
+                        <del class="precoAntigo">R$ 120,99</del>
+                        <p class="precoNovo">R$ <span>79,99</span></p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_877934-MLB54072438671_022023-O.webp" alt="">
+                    <h3>Tinta Premium Tinsul - Laranja</h3>
+                    <div class="preco">
+                        <del class="precoAntigo">R$ 139,99</del>
+                        <p class="precoNovo">R$ <span>115,00</span></p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="https://th.bing.com/th?id=OPHS.GBtUnK3xmEB2Xg474C474&w=300&h=300&o=5&pid=21.1" alt="">
+                    <h3>Torneira Gourmet</h3>
+                    <div class="preco">
+                        <del class="precoAntigo">R$ 123,90</del>
+                        <p class="precoNovo">R$ <span>99,99</span></p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_627612-MLB72179945259_102023-O.webp" alt="">
+                    <h3>Argamassa Portokoll 20kg</h3>
+                    <div class="preco">
+                        <del class="precoAntigo">R$ 129,90</del>
+                        <p class="precoNovo">R$ <span>43,90</span></p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+                <div class="produto">
+                    <img src="https://cdn.leroymerlin.com.br/products/carrinho_de_mao_65l_ate_120kg_extraforte_aco_tramontina_89266072_0001_600x600.jpg" alt="">
+                    <h3>Carrinho de mão 65L Tramontina</h3>
+                    <div class="preco">
+                        <del class="precoAntigo">R$ 489,99</del>
+                        <p class="precoNovo">R$ <span>349,99</span></p>
+                    </div>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#menuBar').click(function(){
+                $('header nav').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>

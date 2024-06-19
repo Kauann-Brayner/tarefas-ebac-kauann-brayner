@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.containerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    margin-bottom: 46px;
+}
+
+#headerDiv{
+    background-color: rgb(254, 254, 49);
+}
+
+#containerHeader{
+    align-items: center;
+    height: 120px;
+}
+
+#menuBar{
+    display: block;
+}
+
+#menuBar{
+    display: none;
+}
+
+#logo{
+    width: 80%;
+}
+
+#buscador1{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#buscador2{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#headerDiv ul{
+    width: 21%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.072);
+}
+
+.menu{
+    display: flex;
+    position: relative;
+}
+
+.menu>li{
+    padding: 9px 10px;
+    font-size: 1.2em;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    width: 200px;
+}
+
+.submenu>li{
+    padding: 8px;
+}
+
+.submenu>li>a{
+    font-size: 0.9em;
+    border-bottom:1px solid rgba(128, 128, 128, 0.571);
+}
+
+.menu>li:hover .submenu{
+    display: block;
+}
+
+section{
+    margin-bottom: 56px;
+}
+
+#sobreNos .container img{
+    width: 45%;
+    margin-right: 32px;
+}
+
+h2{
+    font-style: italic;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    color: rgb(47, 47, 241);
+    border-bottom: 1px solid rgb(47, 47, 241);
+    margin-bottom: 70px;
+}
+
+#sobre p{
+    font-size: 1.35em;
+    margin-bottom: 30px;
+}
+
+#listaProdutos{
+    display: grid;
+    grid-template-columns: repeat(5, 19.2%);
+    grid-gap: 1%;
+}
+
+#listaProdutos .produto img{
+    max-width: 100%;
+    max-height: 175px;
+    object-fit: contain;
+    display: flex;
+    margin: 0 auto;
+}
+
+#listaProdutos .produto h3{
+    margin-top: 10px;
+    height: 45.5px;
+}
+
+#listaProdutos .produto .preco{
+    margin: 10px 0;
+}
+
+#listaProdutos .produto .preco del{
+    color: gray;
+
+}
+
+#listaProdutos .produto .preco p{
+    color: rgb(62, 123, 255);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#listaProdutos .produto .preco p span{
+    color: rgb(62, 123, 255);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#listaProdutos .produto button{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(62, 123, 255);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#listaProdutos .produto button:hover{
+    background-color: rgb(40, 106, 248);
+}
+
+.listaProdutos{
+    height: 100%;
+}
+
+.subDivs{
+    margin-top: 2px;
+}
+
+.imagens img{
+    width: 100%;
+}
+
+.col-4 .container{
+    padding: 0;
+}
+
+.form-control{
+    padding: 10px;
+}
+
+#divCheckbox{
+    margin: 20px 0;
+}
+
+#botaoPedido{
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px){
+    #logo{
+        width: 82%;
+    }
+    
+    #buscador1{
+        display: none;
+    }
+
+    #buscador2{
+        display: flex;
+        margin: auto auto;
+        width: 90%;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .imagensHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+    }
+
+    #menuBar{
+        display: block;
+        width: 18%;
+        object-fit: contain;
+    }
+
+    
+    #containerHeader ul{
+        display: flex;
+        font-size: 0.9em;
+        width: 37%;
+    }
+    #containerHeader ul>li{
+        margin-bottom: 8px;
+    }
+
+    #headerDiv{
+        padding-bottom: 10px;
+    }
+
+    #headerDiv .container{
+        align-items: center;
+        height: 70px;
+    }
+
+    nav{
+        display: none;
+        background-color: white;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.072);
+    }
+    
+    .menu{
+        display: initial;
+    }
+    
+    .menu>li{
+        padding: 9px 10px;
+        font-size: 1.2em;
+    }
+    
+    .submenu2{
+        display:initial;
+        position: relative;
+    }
+    .departamento{
+        display: none;
+    }
+    
+    .submenu>li{
+        padding: 8px;
+    }
+    
+    .submenu>li>a{
+        font-size: 0.9em;
+        border-bottom:1px solid rgba(128, 128, 128, 0.571);
+    }
+    
+    #sobreNos .container{
+        display: block;
+    }
+
+    #sobreNos .container img{
+        width: 100%;
+        padding-bottom: 22px;
+    }
+
+    #sobreNos .container h2{
+        margin-bottom: 32px;
+    }
+    #sobreNos .container p{
+        font-size: 1.2em;
+    }
+    #produtos .container #listaProdutos{
+        display: block;
+    }
+    #listaProdutos .produto img{
+        width: 100%;
+        max-height: 370px;
+    }
+
+    .produto{
+        margin-bottom: 35px;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width: 1023px) {
+    #logo{
+        width: 82%;
+    }
+    
+    #buscador1{
+        display: none;
+    }
+
+    #buscador2{
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .imagensHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 33%;
+    }
+
+    #menuBar{
+        display: block;
+        width: 18%;
+        object-fit: contain;
+    }
+
+    nav{
+        display: none;
+        background-color: white;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.072);
+    }
+    
+    .menu{
+        display: initial;
+    }
+    
+    .menu>li{
+        padding: 9px 10px;
+        font-size: 1.2em;
+    }
+    
+    .submenu2{
+        display:initial;
+        position: relative;
+    }
+    .departamento{
+        display: none;
+    }
+    #containerHeader ul{
+        display: flex;
+        font-size: 1em;
+        width: 27%;
+    }
+    #containerHeader ul>li{
+        margin-bottom: 8px;
+        padding: 8px;
+    }
+
+    #headerDiv{
+        padding-bottom: 10px;
+    }
+
+    .container{
+        max-width: 80vw;
+    }
+
+    #sobreNos .container{
+        display: block;
+    }
+
+    #sobreNos .container img{
+        width: 100%;
+        padding-bottom: 22px;
+    }
+
+    #sobreNos .container h2{
+        margin-bottom: 32px;
+    }
+    #sobreNos .container p{
+        font-size: 1.2em;
+    }
+
+    #listaProdutos{
+        display: grid;
+        grid-template-columns: repeat(2, 49.5%);
+        grid-gap: 1%;
+    }
+
+    #listaProdutos .produto img{
+        width: 100%;
+        max-height: 318px;
+    }
+
+    .produto{
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 1024) {
+    header nav{
+        display: block;
+    }
+}
