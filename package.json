@@ -1,0 +1,16 @@
+{
+  "name": "tarefa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass main.scss main.min.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.6",
+    "sass-watch": "^0.1.0"
+  }
+}
